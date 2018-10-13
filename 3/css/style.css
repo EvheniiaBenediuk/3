@@ -1,76 +1,73 @@
 * {
-    padding: 0;
-    margin: 0;
-    font-family: 'Playfair Display', serif, 'Ubuntu';
-    color: #626262;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  color: #626262;
+  box-sizing: border-box;
 }
 .wrapper {
-    width: 900px;
-    margin: 80px auto 70px auto;
+  width: 900px;
+  margin: 0 auto;
 }
 .header_main_nav {
-    margin: 100px 55px;
-    margin-left: 164px;
-    
+  margin: 100px 55px;
+  margin-left: 164px;
 }
 .nav_list_item {
-    list-style: none;
-    display: inline-block;
-    margin-right: 120px;
-    text-transform: uppercase;
-    margin-right: 94px;
-    
-    
+  list-style: none;
+  display: inline-block;
+  margin-right: 120px;
+  text-transform: uppercase;
+  margin-right: 94px;
 }
 a:hover {
-    color: #6cc2f7;
-    transition: all 2s ease-in-out;
-    cursor: pointer;
+  color: #6cc2f7;
+  transition: all 2s ease-in-out;
+  cursor: pointer;
 }
 .link_item {
-    text-decoration:none;
+  text-decoration: none;
 }
 /* MAIN */
 .container {
-    width: 420px;
-    display: inline-block;
-    margin-right: 28px;
+  width: 420px;
+  display: inline-block;
+  margin-right: 28px;
 }
 img {
-    margin-bottom: 30px;
-    
+  margin-bottom: 30px;
 }
 .subtitle {
-    font-size: 14px;
-    font-family: 'Ubunty', 'Sans serif';
-    color: #b4ad9e;
-    text-transform: uppercase;
-    margin-bottom: 30px;
+  font-size: 14px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #b4ad9e;
+  text-transform: uppercase;
+  margin-bottom: 30px;
 }
 .title {
-    font-family: 'Playfair Display', 'Sans serif';
-    font-size: 30px;
-    margin-bottom: 40px;
-    font-weight: 500;
+  font-family: "Playfair Display", "Sans serif";
+  font-size: 30px;
+  margin-bottom: 40px;
+  font-weight: 500;
 }
 .description {
-    font-family: 'Playfair Display', 'Sans serif';
-    line-height: 1.6;
-    font-size: 14px;
-    margin-bottom: 135px;
+  font-family: "Playfair Display", "Sans serif";
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 135px;
 }
 button {
-    height: 60px;
-    width: 160px;
-    font-size: 20px;
-    border:1px solid #626262;
-    text-decoration: none;
-    background: #ffffff;
-    margin-left: 355px;
+  height: 60px;
+  width: 160px;
+  font-size: 20px;
+  border: 1px solid #626262;
+  text-decoration: none;
+  background: #ffffff;
+  margin-left: 355px;
+  margin-bottom: 70px;
 }
 button:hover {
-    color: #6cc2f7;
-    transition: 2s; 
-    cursor: pointer;
+  color: #6cc2f7;
+  transition: 2s;
+  cursor: pointer;
 }
