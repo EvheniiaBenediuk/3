@@ -34,6 +34,9 @@ a:hover {
   display: inline-block;
   margin-right: 28px;
 }
+.container:nth-child(2n){
+  margin-right: 0;
+}
 img {
   margin-bottom: 30px;
 }
