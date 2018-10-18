@@ -8,10 +8,10 @@
 .wrapper {
   width: 900px;
   margin: 0 auto;
+  background: yellow;
 }
 .header_main_nav {
-  margin: 100px 55px;
-  margin-left: 164px;
+  padding: 100px 55px 100px 164px;
 }
 .nav_list_item {
   list-style: none;
@@ -28,15 +28,19 @@ a:hover {
 .link_item {
   text-decoration: none;
 }
+
 /* MAIN */
+
 .container {
   width: 420px;
   display: inline-block;
   margin-right: 28px;
+  
 }
-.container:nth-child(2n){
-  margin-right: 0;
+.container:nth-child(even){
+  margin-right:0px;
 }
+
 img {
   margin-bottom: 30px;
 }
@@ -60,13 +64,12 @@ img {
   margin-bottom: 135px;
 }
 button {
-  height: 60px;
-  width: 160px;
+  padding: 15px 30px;
   font-size: 20px;
   border: 1px solid #626262;
   text-decoration: none;
   background: #ffffff;
-  margin-left: 355px;
+  margin: 0 auto;
   margin-bottom: 70px;
 }
 button:hover {
