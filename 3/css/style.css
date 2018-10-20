@@ -6,19 +6,25 @@
   box-sizing: border-box;
 }
 .wrapper {
-  width: 900px;
+  width: 868px;
   margin: 0 auto;
-  background: yellow;
 }
 .header_main_nav {
-  padding: 100px 55px 100px 164px;
+  width: 692px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 164px;
+}
+.nav_list{
+  font-size: 0px;
 }
 .nav_list_item {
   list-style: none;
   display: inline-block;
-  margin-right: 120px;
   text-transform: uppercase;
-  margin-right: 94px;
+  margin-right: 105px;
+  font-size: 15px;
+  font-family: 'Playfair Display', serif;
 }
 a:hover {
   color: #6cc2f7;
@@ -30,17 +36,18 @@ a:hover {
 }
 
 /* MAIN */
-
+.main{
+  font-size: 0px;
+}
 .container {
   width: 420px;
   display: inline-block;
   margin-right: 28px;
-  
+  margin-bottom: 135px;
 }
 .container:nth-child(even){
   margin-right:0px;
 }
-
 img {
   margin-bottom: 30px;
 }
@@ -61,7 +68,9 @@ img {
   font-family: "Playfair Display", "Sans serif";
   line-height: 1.6;
   font-size: 14px;
-  margin-bottom: 135px;
+}
+.container_button{
+text-align: center;
 }
 button {
   padding: 15px 30px;
@@ -69,7 +78,6 @@ button {
   border: 1px solid #626262;
   text-decoration: none;
   background: #ffffff;
-  margin: 0 auto;
   margin-bottom: 70px;
 }
 button:hover {
