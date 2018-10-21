@@ -1,0 +1,26 @@
+.wrapper_main {
+    /* width: 100%; */
+    width: 1349px;
+  }
+  .img_tours {
+    /* width: 100%; */
+    position: relative;
+    width: 1349px;
+  }
+  .container_tours {
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    white-space: nowrap;
+    text-transform: uppercase;
+    line-height: 1.6;
+  }
+  .title_tours {
+    font-size: 60px;
+    font-weight: 900;
+  }
+  .description_tours {
+    font-size: 24px;
+  }
